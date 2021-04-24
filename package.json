@@ -1,0 +1,25 @@
+{
+  "name": "Tengri",
+  "version": "1.0.0",
+  "description": "Tengri is a request logger for your node js web API based application.",
+  "main": "./lib/app.js",
+  "repository": "https://github.com/chuksgpfr/tengri.git",
+  "author": "ChuksGPFR",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start:dev": "nodemon ./lib/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,12 @@
+{
+          "name": "tengri-fastify",
+          "version": "1.0.0",
+          "description": "This is to test tengri with fastify server",
+          "main": "index.js",
+          "repository": "",
+          "author": "ChuksGPFR",
+          "license": "ISC",
+          "dependencies": {
+                    "fastify": "^3.14.2"
+          }
+}

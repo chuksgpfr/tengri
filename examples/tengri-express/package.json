@@ -1,0 +1,12 @@
+{
+          "name": "tengri-express",
+          "version": "1.0.0",
+          "description": "This is to test tengri with express server",
+          "main": "index.js",
+          "repository": "",
+          "author": "ChuksGPFR",
+          "license": "ISC",
+          "dependencies": {
+                    "express": "^4.17.1"
+          }
+}

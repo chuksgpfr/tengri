@@ -1,5 +1,5 @@
 // Update with your config settings.
-var connection
+
 module.exports = {
 
   development: {

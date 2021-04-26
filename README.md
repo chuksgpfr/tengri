@@ -8,7 +8,7 @@ tengri is a request logger for your <a href="https://www.nodejs.org" target="_bl
 
 
 # 🛠 how to use
-- to use tengri run the command in the project root `yarn add tengri` or `npm install tengri`
+- to use tengri run the command in the project root `yarn add tengriwatch` or `npm install tengriwatch`
 - create a connection file for tengri to access your database, e.g. `connect.js` (if you are using knex.js skip this step):
  - put the code below in the js file:
  ```js

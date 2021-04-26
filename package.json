@@ -1,5 +1,5 @@
 {
-  "name": "tengri",
+  "name": "tengriwatch",
   "version": "1.0.0",
   "description": "tengri is a request logger for your node js web API based application that comes with an interface to visualize requests made to your server.",
   "main": "./lib/app.js",
@@ -8,12 +8,13 @@
     "url":"https://github.com/chuksgpfr/tengri.git"
   },
   "keywords": [
-    "bootstrapper",
-    "cli",
-    "node",
-    "nib",
-    "nib-cli",
-    "api"
+    "watcher",
+    "tengri",
+    "node js",
+    "api watcher",
+    "server monitor",
+    "server watcher",
+    "api monitor"
   ],
   "author": "ChuksGPFR",
   "license": "MIT",

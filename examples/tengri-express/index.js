@@ -1,7 +1,6 @@
 const express = require('express');
-var Tengri = require("../../lib/tengri");
-var tengriServer = require("../../lib/tengriServer");
-var {tengri} = require("../../lib/tengri")
+var Tengri = require("tengriwatch");
+var {tengri, tengriServer} = require("tengriwatch")
 const homeRoute = require('./routes/home');
 
 Tengri.init('connect.js')
@@ -17,5 +16,5 @@ app.use(tengri)
 app.use('/api', homeRoute);
 
 app.listen(PORT, () => {
-    console.log('Server is running on PORT 3990')
+    console.log('Server is running on PORT 3221')
 })

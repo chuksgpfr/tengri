@@ -10,7 +10,8 @@
         "start:dev": "nodemon index.js"
     },
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "tengriwatch": "^1.0.2"
     },
     "devDependencies": {
         "nodemon": "^2.0.7"

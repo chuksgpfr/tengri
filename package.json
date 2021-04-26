@@ -1,8 +1,8 @@
 {
   "name": "tengriwatch",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "tengri is a request logger for your node js web API based application that comes with an interface to visualize requests made to your server.",
-  "main": "./lib/app.js",
+  "main": "./lib/tengri.js",
   "repository": {
     "type": "git",
     "url":"https://github.com/chuksgpfr/tengri.git"
@@ -29,6 +29,6 @@
     "objection": "^2.2.15"
   },
   "bin": {
-    "tengri": "./index.js"
+    "tengri": "./lib/tengri.js"
   }
 }

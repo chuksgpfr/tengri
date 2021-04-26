@@ -62,10 +62,10 @@ tengri is a request logger for your <a href="https://www.nodejs.org" target="_bl
 
 
 - in the app/index/server
-    - require tengri module `var Tengri = require("./tengri");`
+    - require tengri module `var Tengri = require("tengriwatch");`
     - initialize tengri `Tengri.init('connect.js')` (if you're using knex, just pass knexfile.js)
-    - require tengri server `var tengriServer = require("tengriServer");`
-    - require tengri `var {tengri} = require("./tengri");` 
+    - require tengri server `var {tengriServer} = require("tengriwatch");`
+    - require tengri `var {tengri} = require("tengriwatch");` 
     - use tengri server `app.use(tengriServer);`
     - call tengri middleware above the route you want to monitor 
         ```js
